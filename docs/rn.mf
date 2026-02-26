@@ -9,3 +9,20 @@ Usuários inativos por mais de 90 dias devem ser marcados como inativos.
 ### RN02 — Limite de tentativas de login
 Após 5 tentativas inválidas, a conta deve ser temporariamente bloqueada.
 
+### RN03 — Limite de tentativas de login
+Após 5 tentativas inválidas, a conta deve ser temporariamente bloqueada por 30 minutos.
+
+### RN04 — Complexidade de senha
+A senha deve conter no mínimo 8 caracteres, incluindo obrigatoriamente letras maiúsculas, minúsculas, números e ao menos um caractere especial.
+
+RN05 — Exclusividade de e-mail
+O sistema não deve permitir a criação de mais de uma conta ativa vinculada ao mesmo endereço de e-mail.
+
+### RN06 — Validade de recuperação de senha
+O link ou código enviado por e-mail para a recuperação de senha deve expirar automaticamente em 24 horas.
+
+### RN07 — Confirmação de cadastro
+A conta recém-criada só poderá realizar login no sistema após o usuário confirmar o endereço de e-mail através do link de verificação.
+
+### RN08 — Restrição de exclusão de conta
+Uma conta não pode ser excluída caso o usuário possua pendências financeiras ou processos em andamento dentro do sistema.
